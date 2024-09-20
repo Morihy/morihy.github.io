@@ -203,7 +203,9 @@
 							<input type="text" name="name" placeholder="Great success is on the way." required class="f_l half">
 							<input type="email" name="email" placeholder="Let us know what you need." required class="f_r half">
 							<textarea name="message" placeholder="Our support team is always online: leo@support.tradingwin.uk" class="f_l w_100"></textarea>
-							<button type="submit" class="aligncenter border bg_transparent">Submit Message <span class="fa-solid fa-angle-right"></span></button>
+							<button type="button" onclick="sendEmail()" class="aligncenter border bg_transparent">
+                                                         Submit Message <span class="fa-solid fa-angle-right"></span>
+                                                        </button>
 						</form>
 					</div>
 
@@ -251,6 +253,11 @@
 
 
 		<script src="js/js-global-blocks.js"></script>
+		<script>
+                  function sendEmail() {
+                   window.location.href = 'leo@support.tradingwin.uk';
+                  }
+                </script>
 		<script>
 			var menuid = '#headnav';
 			var gaptop = 135;
