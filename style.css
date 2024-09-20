@@ -100,3 +100,22 @@
 	.footerlinks a:last-of-type{
 		margin-right: 0;
 	}
+
+
+.email-button {
+    display: inline-block;
+    font-size: 1.2em; /* Larger font size */
+    padding: 10px 20px;
+    color: #000; /* Default color */
+    background: transparent;
+    border: 2px solid #000; /* Visible border */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.email-button:hover, .email-button:focus {
+    color: #fff; /* Change text color on hover/focus */
+    background: #000; /* Change background on hover/focus */
+    cursor: pointer; /* Change cursor to indicate clickable */
+}
