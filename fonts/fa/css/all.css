@@ -3,7 +3,7 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2023 Fonticons, Inc.
  */
-.fa {
+/* .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
   font-weight: var(--fa-style, 900); }
 
@@ -34,6 +34,43 @@
 .fab,
 .fa-brands {
   font-family: 'Font Awesome 6 Brands'; }
+ */
+
+.fa {
+  font-family: var(--fa-style-family, "Roboto Slab"); /* Updated font family */
+  font-weight: var(--fa-style, 900);
+}
+
+.fa,
+.fa-classic,
+.fa-sharp,
+.fas,
+.fa-solid,
+.far,
+.fa-regular,
+.fab,
+.fa-brands {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.fas,
+.fa-classic,
+.fa-solid,
+.far,
+.fa-regular {
+  font-family: 'Roboto Slab'; /* Ensuring consistency in family */
+}
+
+.fab,
+.fa-brands {
+  font-family: 'Roboto Slab'; /* Updated to be consistent, or choose another if preferred */
+}
 
 .fa-1x {
   font-size: 1em; }
