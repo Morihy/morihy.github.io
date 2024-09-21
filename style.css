@@ -101,6 +101,14 @@
 		margin-right: 0;
 	}
 
+		@keyframes fadeInOut {
+		    0%, 100% { opacity: 0; }
+		    10%, 90% { opacity: 1; }
+		}
+		
+		.fadeInOut {
+		    animation: fadeInOut 10s infinite;
+		}
 
 .email-button {
     display: inline-block;
